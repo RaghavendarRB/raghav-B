@@ -1,0 +1,89 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: 'raleway','sans-serif';
+    overflow: scroll;
+    overflow-x: hidden;
+}
+
+/*----------header iamge----------*/
+
+img{
+    width: 75%;
+    height: 100%;
+    margin-top: -150px;
+}
+/*----------header---------*/
+.header{
+    background-image: url("C:/Users/Raghavendar Rdy/Desktop/project/media/bg-10.jpg");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-size: cover;
+    
+}
+.header-overlay{
+    background-color: rgba(31,31,31,0.75);
+}
+.header-name{
+    text-align: left;
+    margin-left: -200px;
+    color:#129CF3;
+}
+.text-left{
+    margin-left: -190px;
+}
+
+
+
+/*---------------------about-----------------------*/
+.section-title{
+    padding-bottom: 3px;
+    text-align:center;
+    padding: 20px;
+    text-decoration-color: #129CF3;
+
+}
+.section-title h3{
+    padding-bottom:3px; 
+    text-decoration: underline;
+    text-decoration-color:#ebff8a;
+}
+.about{
+    background-image: url("C:/Users/Raghavendar Rdy/Desktop/project/media/bg-3.jpeg");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-size: cover;
+}
+.about-overlay{
+     background-color: rgba(31,31,31,0.75);
+}
+.about p{
+    color: red;
+}
+
+/*----------skills-----------------------------------*/
+.skills-title{
+    text-align: center;
+    padding: 20px;
+    font-size: 36px;
+}
+.skills-left {
+    padding: 50px;
+    font-size: 25px;
+    line-height: 35px;
+    color: chartreuse;
+}
+.skills-comp{
+    padding-top: 200px;
+}
+.skills-right{
+    padding: 50px;
+    font-size: 25px;
+    line-height: 35px;
+    color: chartreuse;
+    
+}
